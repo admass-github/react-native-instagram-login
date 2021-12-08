@@ -101,6 +101,7 @@ export default class App extends Component {
         <InstagramLogin
           ref={ref => (this.instagramLogin = ref)}
           appId='your-app-id'
+          incognito={false}
           appSecret='your-app-secret'
           redirectUrl='your-redirect-Url'
           scopes={['user_profile', 'user_media']}
